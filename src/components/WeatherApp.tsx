@@ -26,7 +26,7 @@ interface WeatherData {
   };
 }
 
-const API_KEY = '2c6e5e6a8e8a4c5c4e5c6c5c8e8a4c5c'; // Demo API key - users should get their own from OpenWeatherMap
+const API_KEY = '6d143950c36f42daa3d95704250307';
 
 export default function WeatherApp() {
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
